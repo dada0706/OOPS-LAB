@@ -15,7 +15,7 @@ class MobilePhone implements Communicable {
     }
 }
     public class Phones{
-    public static void (String[] args) {
+    public static void main (String[] args) {
         MobilePhone phone = new MobilePhone();
         phone.sendMessage("Hello!");
         phone.receiveMessage("Hey, how are you?");
